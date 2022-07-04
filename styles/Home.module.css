@@ -1,7 +1,20 @@
 .container {
   padding: 0 2rem;
 }
-
+.products__box{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.product__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.product__item img{
+  width: 15rem;
+  height: 15rem;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
